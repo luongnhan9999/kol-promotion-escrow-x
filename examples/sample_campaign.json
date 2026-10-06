@@ -1,0 +1,16 @@
+{
+  "campaign_id": "1",
+  "sponsor": "0x70997970C51812dc3A010C7d01b50e0d17dc79C8",
+  "kol": "0x3C44CdDdB6a900fa2b585dd299e03d12FA4293BC",
+  "brand_name": "GenLayer AI",
+  "required_keywords": "#GenLayer, #IntelligentContracts, $GEN",
+  "post_identifier": "status/1888200100200300400",
+  "post_url": "https://x.com/crypto_influencer/status/1888200100200300400",
+  "escrow_amount": "5000000000000000000",
+  "status": "SETTLED",
+  "verdict": "CAMPAIGN_FULFILLED",
+  "reason": "Audited by autonomous social jury: Post is live, promotes GenLayer AI, and contains all required hashtags.",
+  "min_retention_deadline": 1775462400,
+  "created_at": 1,
+  "resolved_at": 1
+}
