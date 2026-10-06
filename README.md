@@ -2,7 +2,7 @@
 
 > **Track:** Agentic Commerce Infrastructure / Future of Work  
 > **Network:** GenLayer studionet (Chain ID: `61999` / `0xF1EF`)  
-> **Contract Address:** `0x9A48C21b58FE331E627a696417A6305a415D4Ec3`  
+> **Contract Address:** `0x53ea850504Bb6146645fd8Bb088418178cc128f2`  
 > **Target Environment:** [GenLayer Studio](https://studio.genlayer.com)  
 > **Execution Engine:** GenVM / Optimistic Democracy Subjective Consensus  
 > **Package / SDK:** `py-genlayer:1jb45aa8ynh2a9c9xn3b7qqh8sm5q93hwfp7jqmwsfhh8jpz09h6`  
@@ -10,12 +10,15 @@
 
 ---
 
-## 1. Deployment & Studionet Overview
+## 1. Deployment & Live Network Evidence
 
-The `KOLPromotionEscrowX` Intelligent Contract is designed and configured for deployment on **GenLayer studionet**:
+The `KOLPromotionEscrowX` Intelligent Contract is successfully deployed on **GenLayer studionet**:
 
+- **Contract Address:** `0x53ea850504Bb6146645fd8Bb088418178cc128f2`
+- **Network:** `studionet` (Chain ID: `61999` / `0xF1EF`)
+- **Explorer:** [https://explorer.genlayer.com/address/0x53ea850504Bb6146645fd8Bb088418178cc128f2](https://explorer.genlayer.com/address/0x53ea850504Bb6146645fd8Bb088418178cc128f2)
+- **Studio Explorer:** [https://explorer-studio.genlayer.com/address/0x53ea850504Bb6146645fd8Bb088418178cc128f2](https://explorer-studio.genlayer.com/address/0x53ea850504Bb6146645fd8Bb088418178cc128f2)
 - **Contract Source:** [`contracts/kol_promotion_escrow_x.py`](contracts/kol_promotion_escrow_x.py)
-- **Target Network:** `studionet` (Chain ID: `61999` / `0xF1EF`)
 - **Deployment Platform:** [GenLayer Studio](https://studio.genlayer.com)
 - **RPC Endpoint:** `https://studio.genlayer.com/api`
 
@@ -224,7 +227,7 @@ const client = createClient({
   account: userAddress
 });
 
-const CONTRACT_ADDRESS = "0x9A48C21b58FE331E627a696417A6305a415D4Ec3";
+const CONTRACT_ADDRESS = "0x53ea850504Bb6146645fd8Bb088418178cc128f2";
 
 // 1. Create a campaign with escrow deposit
 async function createCampaign(kolAddress, brand, keywords, postId, retentionSec, genAmount) {
